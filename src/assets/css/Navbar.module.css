@@ -1,0 +1,46 @@
+/* Estilos para el tema light */
+.lighttheme {
+  background-color: #ffffff;
+  color: #000000;
+}
+
+/* Estilos para el tema dark */
+.darktheme {
+  background-color: #333333;
+  color: #ffffff;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 10px 20px 10px;
+    width: 80vw;
+  }
+  
+  .navbarbrand {
+    font-size: 24px;
+    font-weight: bold;
+    text-decoration: none;
+    
+  }
+  
+  .navbarbuttons {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    gap: 20px;
+  }
+  
+  .navbarbutton {
+    text-decoration: none;
+    
+    font-weight: bold;
+    transition: color 0.2s;
+  }
+  
+  .navbarbutton:hover {
+    color: #00bcd4;
+  }
+  

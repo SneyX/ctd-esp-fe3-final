@@ -1,0 +1,63 @@
+/* Estilos para el tema light */
+.lighttheme {
+  background-color: #ffffff;
+  color: #000000;
+}
+
+/* Estilos para el tema dark */
+.darktheme {
+  background-color: #333333;
+  color: #ffffff;
+}
+
+.Contact {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 40px;
+    border: 1px solid #03bbc2;
+    border-radius: 5px;
+  }
+  
+  .Contact h2 {
+    margin-bottom: 20px;
+  }
+  
+  .FormGroup {
+    margin-bottom: 15px;
+  }
+  
+  label {
+    display: block;
+    font-weight: bold;
+  }
+  
+  input[type="text"],
+  input[type="email"] {
+    width: 100%;
+    padding: 10px;
+    border-radius: 3px;
+  }
+  
+  button {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 3px;
+    padding: 10px 20px;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #0056b3;
+  }
+  
+  .Error {
+    color: #d9534f;
+    margin-top: 10px;
+  }
+  
+  .Success {
+    color: #5cb85c;
+    margin-top: 10px;
+  }
+  

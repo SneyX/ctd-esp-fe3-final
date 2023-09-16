@@ -1,0 +1,38 @@
+/* Estilos para el tema light */
+.lighttheme {
+  background-color: #ffffff;
+  color: #000000;
+}
+
+/* Estilos para el tema dark */
+.darktheme {
+  background-color: #333333;
+  color: #ffffff;
+}
+
+.CardContainer {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.Card {
+  flex: 1;
+  min-width: calc(33.33% - 16px);
+  border-radius: 8px;
+  padding: 16px;
+  
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  transition: transform 0.2s ease-in-out;
+  margin-bottom: 16px;
+  
+  display: flex;
+  flex-direction: column;
+}
+
+.centered-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 20px;
+}
